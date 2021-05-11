@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: url(./images/img_1.png) repeat center center / 200px 200px;
+        background-color: rgb(213, 176, 230);
+      }
+
+      body {
+        animation: sizeAnimation 5s ease-in-out infinite;
+      }
+
+      @keyframes sizeAnimation {
+        0% {
+          background-size: 50px 50px;
+          background-position: 10% 10%;
+        }
+
+        50% {
+          background-size: 200px 200px;
+          background-position: 80% 50%;
+          backdrop-filter: blur(10px);
+        }
+
+        100% {
+          background-size: 50px 50px;
+          background-position: 10% 10%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <script></script>
+  </body>
+</html>
